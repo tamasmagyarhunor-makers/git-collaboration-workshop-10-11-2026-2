@@ -10,8 +10,8 @@ from psycopg.rows import dict_row
 # That's why we have provided it!
 class DatabaseConnection:
     # VVV CHANGE BOTH OF THESE VVV
-    DEV_DATABASE_NAME = "git-collaboration-workshop-10-11-2026"
-    TEST_DATABASE_NAME = "git-collaboration-workshop-10-11-2026_test"
+    DEV_DATABASE_NAME = "engineering_project_db_10_11_2026"
+    TEST_DATABASE_NAME = "engineering_project_db_10_11_2026_test"
 
     def __init__(self, test_mode=False):
         self.connection = None
