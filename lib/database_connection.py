@@ -10,8 +10,8 @@ from psycopg.rows import dict_row
 # That's why we have provided it!
 class DatabaseConnection:
     # VVV CHANGE BOTH OF THESE VVV
-    DEV_DATABASE_NAME = "DEFAULT_MAKERS_PROJECT"
-    TEST_DATABASE_NAME = "DEFAULT_MAKERS_PROJECT_TEST"
+    DEV_DATABASE_NAME = "engineering_project_db_10_11_2026"
+    TEST_DATABASE_NAME = "engineering_project_db_10_11_2026_test"
 
     def __init__(self, test_mode=False):
         self.connection = None
